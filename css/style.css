@@ -96,13 +96,13 @@ z-index: 999;
 }
 .header-content  h1 {
   color: #fff;
-  font-size: 70px;
+  font-size: 50px;
   text-transform: uppercase;
   text-shadow: 2px 2px #000;
 }
 .header-content h4 {
   color: #fff;
-  font-size: 25px;
+  font-size: 32px;
   text-shadow: 1px 1px #333;
 }
 .single-page-nav { text-align: center; }
@@ -145,6 +145,12 @@ z-index: 999;
 .feature-content-link:hover, .feature-content-link:link, .feature-content-link:visited  {
   color: white;
   text-decoration: none;
+}
+
+div.transbox {
+  margin: 5%;
+  font-weight: bold;
+  color: #ffffff;
 }
 
 /* End Feature CSS */
@@ -423,6 +429,11 @@ input {
 
 .navbar .navbar-collapse {
     text-align: center;
+}
+
+#section1 h1 > span,
+#section1 h4 > span {
+    background: rgba(0, 0, 0, 0.7);
 }
 
 /* Media Queries
