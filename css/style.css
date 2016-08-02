@@ -214,7 +214,7 @@ div#service-area-main {
 .service  h1 {
   color: #fff;
   text-transform: capitalize;
-  text-shadow: 2px 2px #aaa;
+  text-shadow: 2px 2px #333;
   margin-bottom: 20px;
 }
 .service > p {
