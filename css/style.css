@@ -221,6 +221,12 @@ div#service-area-main {
     color: #fff;
     font-size: 18px;
 }
+
+#profile-photo {
+    max-width:300px;
+    margin:auto;
+    padding-right:20px;"
+  }
 /* End Services CSS */
 
 /* Start Testimornial CSS */
