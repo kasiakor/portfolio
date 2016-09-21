@@ -95,14 +95,14 @@ z-index: 999;
   background: #49505F;
 }
 .header-content  h1 {
-  color: #fff;
-  font-size: 50px;
+  color: #66fcf1;
+  font-size: 35px;
   text-transform: uppercase;
   text-shadow: 2px 2px #000;
 }
 .header-content h4 {
-  color: #fff;
-  font-size: 32px;
+  color: #66fcf1;
+  font-size: 30px;
   text-shadow: 1px 1px #333;
 }
 .single-page-nav { text-align: center; }
@@ -119,7 +119,6 @@ z-index: 999;
 .red-btn { background: #852406; }
 .red-btn:hover { background: #C9302C; }
 .feature-content {
-    background: #F2F2F2;
     padding-bottom: 40px;
 }
 .feature-content-title {
@@ -154,6 +153,17 @@ div.transbox {
 }
 
 /* End Feature CSS */
+/* Snowflake rotation */
+.snowflake {
+  border-radius: 50%;
+  -webkit-transition: -webkit-transform .8s ease-in-out;
+          transition:         transform .8s ease-in-out;
+}
+.snowflake:hover {
+  -webkit-transform: rotate(360deg);
+          transform: rotate(360deg);
+}
+/* End of Snowflake rotation */
 
 /* Start Blog CSS */
 #blog-area {
@@ -275,7 +285,7 @@ h2 {
   background-attachment: fixed; 
 }*/
 .contact-content h1 {
-    color: #fff;
+    color: #66fcf1;
     text-transform: capitalize;
     margin-bottom: 30px;
   text-shadow: 2px 2px #333;
@@ -302,7 +312,8 @@ input {
 }
 .form-group button {
   background: #262628 none repeat scroll 0 0;
-  color: #fff;
+  color: #66fcf1;
+  border-color: #66fcf1;
   margin-top: 20px;
   padding: 10px 30px;
   font-size: 18px;
@@ -414,8 +425,7 @@ input {
 }
 .navbar-inverse .navbar-nav>li>a {
     background: #383E4C none repeat scroll 0 0;
-    border: 1px solid #66fcf1;
-    color: #fff ;
+    color: #66fcf1;
     font-size: 20px;
     padding: 15px 25px;
     text-decoration: none;
