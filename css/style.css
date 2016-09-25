@@ -152,6 +152,28 @@ div.transbox {
 }
 
 /* End Feature CSS */
+
+/* Section Title Style */
+
+h1.section-title {
+  text-align: center;
+  font-size: 36px;
+}
+
+h1.section-title:after {
+  content: '';
+  display: block;
+  background-color: #555;
+  width: 60px;
+  height: 1px;
+  margin: 15px auto 30px;
+}
+
+div#section2, div#section3 {
+  border-bottom: 1px solid #ccc;
+}
+/* End of Section Title Style */
+
 /* Snowflake rotation */
 .snowflake {
   border-radius: 50%;
