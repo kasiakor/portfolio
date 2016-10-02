@@ -378,6 +378,32 @@ input {
 }
 /* End Contact CSS */
 
+/* Social Networks CSS */
+
+.social-networks a.github-icon, 
+.social-networks a.linkedin-icon {
+  box-sizing: border-box;
+  height: 30px;
+  width: 30px;
+  background-size: 100%;
+  display: inline-block;
+  overflow: hidden;
+  text-indent: 1000px;
+}
+
+.social-networks a.github-icon {
+  background-image: url("../img/github-icon.png");
+}
+
+
+.social-networks a.linkedin-icon {
+  background-image: url("../img/linkedin-icon.png");
+}
+
+
+
+/* End of Social Networks CSS */
+
 /* Start Footer CSS */
 .footer-content  h1 {
     color: #666;
