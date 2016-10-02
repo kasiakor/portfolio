@@ -339,11 +339,15 @@ h2 {
   background-size: cover;  
   background-attachment: fixed; 
 }*/
+
+#section5 {
+    background-color: #383e4c;
+}
 .contact-content h1 {
     color: #66fcf1;
     text-transform: capitalize;
     margin-bottom: 30px;
-  text-shadow: 2px 2px #333;
+    text-shadow: 2px 2px #333;
 }
 .contact-content p {
     background: rgba(242, 242, 242, 0.4) none repeat scroll 0 0;
@@ -380,6 +384,10 @@ input {
 
 /* Social Networks CSS */
 
+.social-networks {
+  padding: 20px;
+}
+
 .social-networks a.github-icon, 
 .social-networks a.linkedin-icon {
   box-sizing: border-box;
@@ -389,6 +397,7 @@ input {
   display: inline-block;
   overflow: hidden;
   text-indent: 1000px;
+  margin: 0 7px;
 }
 
 .social-networks a.github-icon {
