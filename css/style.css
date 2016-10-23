@@ -121,9 +121,7 @@ z-index: 999;
 .feature-content {
     padding-bottom: 40px;
 }
-.feature-content-title {
-    padding: 0 20px;   
-}
+
 .feature-content-description {
     padding: 0 20px 35px;
     text-align: left;
@@ -180,7 +178,7 @@ div#section2, div#section3 {
   -webkit-transition: -webkit-transform .8s ease-in-out;
           transition:         transform .8s ease-in-out;
 }
-.snowflake:hover {
+.feature-content:hover .snowflake {
   -webkit-transform: rotate(360deg);
           transform: rotate(360deg);
 }
@@ -303,7 +301,6 @@ h2 {
 }
 .testimonial-content {
   background-color: #f2f2f2;
-  height: 500px;
   max-width: 260px;
   margin: 0 auto 30px;
 }
