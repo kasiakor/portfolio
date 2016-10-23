@@ -81,7 +81,7 @@ z-index: 999;
   padding: 10px;
 }
 .main-menu ul li a {
-  background: #383E4C none repeat scroll 0 0;
+  background: #373c4a none repeat scroll 0 0;
   border: 1px solid #646d7c;
   color: #fff;
   font-size: 20px;
@@ -340,8 +340,8 @@ h2 {
   background-attachment: fixed; 
 }*/
 
-#section5 {
-    background-color: #383e4c;
+#section1, #section5 {
+    background-color: #373c4a;
 }
 .contact-content h1 {
     color: #66fcf1;
@@ -506,15 +506,15 @@ input {
 /*************navigation******************/
 
  .navbar-inverse {
-    background-color: #383E4C;
-    border-color: #383E4C;
+    background-color: #373c4a;
+    border-color: #373c4a;
 }
 .navbar-nav>li {
     display: inline-block;
     padding: 10px;
 }
 .navbar-inverse .navbar-nav>li>a {
-    background: #383E4C none repeat scroll 0 0;
+    background: #373c4a none repeat scroll 0 0;
     color: #66fcf1;
     font-size: 20px;
     padding: 15px 25px;
@@ -660,12 +660,12 @@ input {
   }
   .navbar-inverse .navbar-nav>li>a:focus, 
   .navbar-inverse .navbar-nav>li>a:hover {
-    background-color: #383E4C;
+    background-color: #373c4a;
   }
   .navbar-inverse .navbar-nav>.active>a, 
   .navbar-inverse .navbar-nav>.active>a:focus, 
   .navbar-inverse .navbar-nav>.active>a:hover {
-    background: #383E4C;
+    background: #373c4a;
   }
   .navbar-inverse .navbar-nav > li > a { font-size: 16px; }
   .container {
@@ -673,7 +673,7 @@ input {
     margin-right: 0;
   }
   .single-page-nav {
-    background-color: #383E4C;
+    background-color: #373c4a;
     max-height: 0;
     -webkit-transition: max-height 0.8s;
             transition: max-height 0.8s;
