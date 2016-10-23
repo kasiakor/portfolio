@@ -369,7 +369,7 @@ input {
 #comment.form-control {
 
 }
-.form-group button {
+.form-group .submit-button {
   background: #262628 none repeat scroll 0 0;
   color: #66fcf1;
   border-color: #66fcf1;
@@ -380,6 +380,12 @@ input {
   -webkit-transition: all 0.3s ease;
           transition: all 0.3s ease;
 }
+
+.form-group .submit-button:hover {
+    color: #333;
+    background-color: #e6e6e6;
+    border-color: #adadad;
+  }
 /* End Contact CSS */
 
 /* Social Networks CSS */
@@ -432,6 +438,24 @@ input {
     margin-bottom: 30px;
     margin-top: 10px;
 }
+
+
+/* thankyou.html */
+
+#thankyou-page, #error-page {
+  background-color: #373c4a;
+}
+
+#thankyou-text, #error-text {
+  font-family: "Open Sans", Helvetica, Arial, sans-serif!important;
+  font-size: 24px;
+  text-align: center;
+  color: #fff;
+  padding-top: 100px;
+}
+
+
+
 
 /* Slick Nav CSS */
 .slicknav_menu {
