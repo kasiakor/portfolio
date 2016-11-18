@@ -34,6 +34,7 @@ body {
   overflow-x: hidden;
 }
 
+
 img {
   max-width: 100%;
   height: auto;
@@ -99,7 +100,9 @@ z-index: 999;
   font-size: 35px;
   text-transform: uppercase;
   text-shadow: 2px 2px #000;
+  background-color: rgba(0, 0, 0, 0.6);
 }
+
 .header-content h4 {
   color: #66fcf1;
   font-size: 30px;
@@ -109,9 +112,9 @@ z-index: 999;
 /* End Header CSS */
 
 /* Start Feature CSS */
-.green-text { color: #178A27; }
-.blue-text { color: #1686C1; }
-.gray-text { color: #1686C1; }
+.green-text { color: #99a1a1; }
+.blue-text { color: #99a1a1; }
+.gray-text { color: #99a1a1; }
 .green-btn { background: #178A27; }
 .green-btn:hover { background: #449D44; }
 .blue-btn { background: #1686C1; }
@@ -194,6 +197,25 @@ div#section2, div#section3 {
 }
 /* End of Snowflake rotation */
 
+/* Start of skills area */
+
+.skills-set {
+    font-size: 16px;
+    color: #373c4a;
+    font-weight: bold;
+    padding-bottom: 10px;
+}
+
+.skills-list {
+  padding-bottom: 7px;
+}
+
+.skills-list li {
+  padding-bottom: 7px;
+}
+
+/* End of skills area */
+
 /* Work and Education Style */
 .we-item {
   margin-top: 15px;
@@ -215,6 +237,10 @@ div#section2, div#section3 {
 
 .we-img {
   width:160px;
+}
+
+.we-img img {
+  border: 1px ridge #c1c1c1;
 }
 
 .we-text {
@@ -317,7 +343,7 @@ div#service-area-main {
   margin: 60px 0;
 }
 h2 {
-    color: #852406;
+    color: #99a1a1;
 }
 .testimonial-content {
   background-color: #f2f2f2;
