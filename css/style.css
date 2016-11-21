@@ -97,15 +97,18 @@ z-index: 999;
 }
 .header-content  h1 {
   color: #66fcf1;
-  font-size: 35px;
+  font-size: 38px;
   text-transform: uppercase;
   text-shadow: 2px 2px #000;
-  background-color: rgba(0, 0, 0, 0.6);
+}
+
+.header-content span {
+  background-color: rgba(0, 0, 0, 0.8);
 }
 
 .header-content h4 {
   color: #66fcf1;
-  font-size: 30px;
+  font-size: 35px;
   text-shadow: 1px 1px #333;
 }
 .single-page-nav { text-align: center; }
@@ -198,6 +201,9 @@ div#section2, div#section3 {
 /* End of Snowflake rotation */
 
 /* Start of skills area */
+#my-skills {
+  margin-top: 30px;
+}
 
 .skills-set {
     font-size: 16px;
