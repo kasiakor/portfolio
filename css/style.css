@@ -261,6 +261,7 @@ div#section2, div#section3 {
 /* End of Work and Education Style */
 
 /* Start Blog CSS */
+
 #blog-area {
     margin: 60px 0px;
 }
@@ -328,9 +329,9 @@ div#service-area-main {
 }
 
 #profile-photo {
-    max-width:300px;
+    max-width:250px;
     margin:auto;
-    padding-right:20px;"
+    padding-right:20px;
   }
 
   #section0::after {
@@ -391,6 +392,12 @@ h2 {
 
 #section1, #section5 {
     background-color: #373c4a;
+}
+
+.contact-content > div {
+  color: #fff;
+  margin-bottom:30px;
+
 }
 .contact-content h1 {
     color: #66fcf1;
