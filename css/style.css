@@ -789,3 +789,32 @@ input {
 @media only screen and (max-width: 480px) {
   header { height: 50vh; }
 }
+
+
+.project-details {
+  margin: 100px 0;
+  text-align: left;
+}
+
+.project-link {
+  margin: 200px 0;
+  text-align: center;
+}
+
+.project-link img {
+  width: 100%;
+  padding: 20px;
+  max-width: 300px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
