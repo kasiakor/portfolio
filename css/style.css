@@ -616,8 +616,8 @@ input {
 .navbar-inverse .navbar-nav>li>a {
     background: #455A64 none repeat scroll 0 0;
     color: #FFF;
-    font-size: 16px;
-    padding: 15px 25px;
+    font-size: 15px;
+    padding: 15px 23px;
     text-decoration: none;
     text-transform: capitalize;
     -webkit-transition: all 0.7s ease;
@@ -646,16 +646,9 @@ input {
 /* Media Queries
 ----------------------*/
 
-@media only screen and (min-width: 1200px) {
-  img.parallax-slider {
-  margin-top: 240px;
-  }
-}
 
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
-    img.parallax-slider {
-  margin-top: 200px;
-  }
+ 
   .blog-content > p#blofr {
     padding: 5px;
   }
@@ -673,10 +666,6 @@ input {
 /*    Tablet Layout: 768px. */
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
-
-  img.parallax-slider {
-  margin-top: 130px;
-  }
 
   .blog-content p {
     margin-bottom: 21px;
@@ -818,9 +807,7 @@ input {
 /*    Wide Mobile Layout: 480px. */
 
 @media only screen and (min-width: 480px) and (max-width: 767px) {
-  img.parallax-slider {
-     margin-top: 80px;
-  }
+
   .header-content h1 {
     font-size: 70px;
   }
@@ -837,9 +824,6 @@ input {
 }
 
 @media only screen and (max-width: 480px) {
-    img.parallax-slider {
-  margin-top: 50px;
-  }
 
   header { height: 50vh; }
 }
