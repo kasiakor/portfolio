@@ -238,7 +238,7 @@
       this.$mirror.css({
         transform: 'translate3d(0px, 0px, 0px)',
         visibility: this.visibility,
-        top: this.mirrorTop - overScroll + 40,
+        top: this.mirrorTop - overScroll,
         left: this.mirrorLeft,
         height: this.boxHeight,
         width: this.boxWidth
@@ -247,7 +247,7 @@
       this.$slider.css({
         transform: 'translate3d(0px, 0px, 0px)',
         position: 'absolute',
-        top: this.offsetTop + 40,
+        top: this.offsetTop,
         left: this.offsetLeft,
         height: this.imageHeight,
         width: this.imageWidth,
