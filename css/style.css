@@ -64,6 +64,13 @@ img.parallax-slider {
   border: none!important;
 }
 
+img#logo {
+  border: none;
+  margin-top: 0px;
+  margin-bottom: 5px;
+
+}
+
  h1 {
   font-weight: 700;
 }
@@ -821,11 +828,18 @@ input {
   .col-xxs-12 {
     width: 100%;
   }
+   .prominent span {
+    border-bottom: none;
+  }
 }
 
 @media only screen and (max-width: 480px) {
 
   header { height: 50vh; }
+
+   .prominent span {
+    border-bottom: none;
+  }
 }
 
 
