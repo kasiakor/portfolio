@@ -47,7 +47,7 @@ body {
 .prominent span {
   display: block;
   border-bottom: 1px solid #FFF;
-  font-size: 25px;
+  font-size: 22px;
   margin-bottom: 5px;
   padding-bottom: 5px;
 }
@@ -616,7 +616,7 @@ input {
 .navbar-inverse .navbar-nav>li>a {
     background: #455A64 none repeat scroll 0 0;
     color: #FFF;
-    font-size: 15px;
+    font-size: 18px;
     padding: 15px 23px;
     text-decoration: none;
     text-transform: capitalize;
