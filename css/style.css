@@ -71,7 +71,18 @@ img#logo {
   border: none;
   margin-top: 0px;
   margin-bottom: 5px;
+  transition: 1.2s;
 }
+
+a:hover img#logo {
+
+    -webkit-transform: rotateY(180deg); 
+    transform: rotateY(180deg); 
+    -webkit-filter: invert(100%); 
+    filter: invert(100%);
+}
+
+
 
  h1 {
   font-weight: 700;
