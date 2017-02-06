@@ -699,9 +699,11 @@ input {
     font-size: 18px;
     padding: 15px 0;
   }
+
   .navbar-nav > li {
     padding: 6px;
   }
+
   .navbar-inverse .navbar-nav > li > a {
     font-size: 12px;
     padding: 5px;
