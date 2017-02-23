@@ -132,8 +132,6 @@
       visibility: 'hidden',
       zIndex: this.zIndex,
       position: 'fixed',
-      top: 0,
-      left: 0,
       overflow: 'hidden'
     });
 
