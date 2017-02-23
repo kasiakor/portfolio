@@ -55,21 +55,29 @@ body {
 }
 
 img {
-  max-width: 100%;
+  max-width: 60%;
   height: auto;
   border: none;
   border: solid 5px #455A64;
-  margin-top: 10px;
+  margin-top: 7px;
+  border-radius: 8%;
 }
+
+.img-project {
+  max-width: 100%;
+}
+
 
 img.parallax-slider {
   border: none!important;
+
 }
 
 img#logo {
   border: none;
   margin-top: 0px;
   margin-bottom: 5px;
+  margin-right: 10px;
   transition: 1.2s;
 }
 
@@ -253,10 +261,13 @@ div#section2, div#section3 {
 }
 
 .skills-set {
-    font-size: 16px;
+    font-size: 20px;
     color: #FFF;
     font-weight: bold;
-    padding-bottom: 10px;
+    /* padding-bottom: 10px; */
+    padding-left: 38px;
+    background-color: #eaa69d;
+    border-radius: 8px;
 }
 
 .skills-list {
@@ -402,16 +413,17 @@ h2 {
     text-align: left;
     color: #455A64;
 }
-.content-link {
+.content-link, .submit-button {
     background: #5f868f none repeat scroll 0 0;
     border: 1px solid #cdcdcd;
     color: #FFF;
     display: inline-block;
-    font-size: 18px;
+    font-size: 17px;
     padding: 10px 30px;
     text-decoration: none;
     text-transform: capitalize;
     margin-top: 15px;
+    border-radius: 8px;
     -webkit-transition: all 0.3s ease;
             transition: all 0.3s ease;
 }
@@ -638,7 +650,7 @@ input {
     color: #FFF;
     font-size: 18px;
     padding: 15px 23px;
-    border-radius: 2px;
+    border-radius: 8px;
     text-decoration: none;
     text-transform: capitalize;
     -webkit-transition: all 0.7s ease;
