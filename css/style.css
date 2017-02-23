@@ -532,9 +532,14 @@ input {
 }
 
 #section5 {
-  background-image: url("../img/icon-email.png");
+  background-image:  url("../img/icon-email_invert.png"), url("../img/icon-email.png"), url("../img/icon-email.png"), url("../img/icon-email_invert.png"), url("../img/icon-email.png");
   background-repeat: no-repeat;
+  background-position: 15% 75%, 85% 25%, 5% 15%, 40% 20%, 90% 80%;
+  background-size: 110px, 160px, 80px, 50px, 40px;
+
 }
+
+
 
 /* End of Social Networks CSS */
 
