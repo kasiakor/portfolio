@@ -697,6 +697,41 @@ input {
     background: rgba(0, 0, 0, 0.7);
 }
 
+
+/* Projects
+----------------------*/
+
+.project-desc {
+font-size: 19px;
+text-align: justify;
+line-height: 1.1em;
+padding-top: 10px;
+}
+
+.project-det {
+font-size: 17px;
+text-align: justify;
+}
+
+.tech-feat {
+font-size: 17px;
+text-align: justify;
+}
+
+.project-head {
+  border-bottom: 2px solid #eaa69d;
+}
+
+
+
+
+
+
+
+
+
+
+
 /* Media Queries
 ----------------------*/
 
