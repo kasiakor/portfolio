@@ -458,6 +458,9 @@ h2 {
   background-size: cover;  
   background-attachment: fixed; 
 }*/
+.email {
+    padding-bottom: 10px;
+}
 
 #section1, #section5 {
     background-color: #455A64;
@@ -466,7 +469,7 @@ h2 {
 .contact-content > div {
   color: #fff;
   margin-bottom:30px;
-  font-size: 17px;
+  font-size: 22px;
 
 }
 .contact-content h1 {
