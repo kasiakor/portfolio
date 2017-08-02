@@ -289,6 +289,11 @@ div#section2, div#section3 {
 /* End of skills area */
 
 /* Work and Education Style */
+
+.title {
+    margin-left: 0;
+    border-bottom: 1px solid #eaa69d;
+}
 .we-item {
   margin-top: 15px;
   padding-top: 15px;
@@ -347,9 +352,7 @@ div#section2, div#section3 {
     text-align: left;
     color: #FFF;
 }
-.blog-content span {
-  margin-left: 225px;
-}
+
 .blog-content span a {
     background: #fff none repeat scroll 0 0;
     border: 1px solid #ccc;
