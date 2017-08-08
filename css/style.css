@@ -266,6 +266,7 @@ div#section2, div#section3 {
     padding-left: 38px;
     background-color: #eaa69d;
     border-radius: 8px;
+    margin-bottom: 10px;
 }
 
 .skills-list {
@@ -821,7 +822,8 @@ text-align: justify;
   }
   .feature-content {
     max-width: 360px;
-    margin: 0 auto 30px;
+    margin: 0;
+    padding: 15px;
   }
   .feature-content-title,
   .feature-content-description {
@@ -909,6 +911,13 @@ text-align: justify;
     border-bottom: none;
   }
 }
+
+@media only screen and (max-width: 360px) {
+    .snowflake {
+        width: 30%;
+    }
+}
+
 
 @media only screen and (max-width: 520px) {
   .col-xxs-12 {
