@@ -210,15 +210,6 @@ div.transbox {
   color: #ffffff;
 }
 
-#section0::after {
-    content: '';
-    background: #455A64;
-    display: block;
-    height: 200px;
-    margin-top: -200px;
-    z-index: -10000;
-    position: relative;
-}
 
 /* End Feature CSS */
 
@@ -399,7 +390,7 @@ div#service-area-main {
 
   #section0::after {
     content: '';
-    background: #455A64;
+    background: white;
     display: block;
     height: 200px;
     margin-top: -200px;
@@ -966,7 +957,20 @@ text-align: justify;
   list-style: none;
 }
 
-
+@media only screen and (min-width: 768px) {
+    #section1 {
+        background-color: white;
+    }
+    
+    .service {
+        font-size: 20px;
+    }
+    .service, .service h1 {
+        color: #435761;
+    }
+    
+    
+}
 
 
 
