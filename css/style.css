@@ -210,6 +210,16 @@ div.transbox {
   color: #ffffff;
 }
 
+#section0::after {
+    content: '';
+    background: #455A64;
+    display: block;
+    height: 200px;
+    margin-top: -200px;
+    z-index: -10000;
+    position: relative;
+}
+
 
 /* End Feature CSS */
 
@@ -822,7 +832,7 @@ text-align: justify;
   }
   .feature-content {
     max-width: 360px;
-    margin: 0;
+    margin: 0 auto;
     padding: 15px;
   }
   .feature-content-title,
@@ -912,13 +922,6 @@ text-align: justify;
   }
 }
 
-@media only screen and (max-width: 360px) {
-    .snowflake {
-        width: 30%;
-    }
-}
-
-
 @media only screen and (max-width: 520px) {
   .col-xxs-12 {
     width: 100%;
@@ -981,7 +984,11 @@ text-align: justify;
     
 }
 
-
+@media only screen and (max-width: 360px) {
+    .snowflake {
+        max-width: 30%;
+    }
+}
 
 
 
