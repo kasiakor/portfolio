@@ -31,9 +31,13 @@ h6,
     font-family: "Karla", "Lucida Grande", "Helvetica", "Arial"!important;
 }
 body {
-  background-color: #5f868f;
+  background-color: #ffffff;
   color: #FFF;
   overflow-x: hidden;
+}
+
+.wrapper {
+    background-color: #5f868f;
 }
 
 .navbar {
