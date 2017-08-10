@@ -36,7 +36,7 @@ body {
   overflow-x: hidden;
 }
 
-.wrapper {
+.bg-project, .wrapper {
     background-color: #5f868f;
 }
 
