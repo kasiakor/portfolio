@@ -973,6 +973,12 @@ text-align: justify;
   list-style: none;
 }
 
+@media only screen and (max-width: 768px) {
+    .mobile {
+        border: none;
+    }
+}
+
 @media only screen and (min-width: 768px) {
     #section1 {
         background-color: white;
@@ -991,10 +997,6 @@ text-align: justify;
 @media only screen and (max-width: 360px) {
     .snowflake {
         max-width: 30%;
-    }
-    
-    .mobile img {
-        border: none;
     }
 }
 
