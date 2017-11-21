@@ -931,6 +931,12 @@ text-align: justify;
   }
 }
 
+@media only screen and (max-width: 767px) {
+  .snowflake {
+    max-width: 30%;
+  }
+}
+
 @media only screen and (max-width: 520px) {
   .col-xxs-12 {
     width: 100%;
