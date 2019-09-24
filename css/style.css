@@ -6,11 +6,11 @@ http://www.templatemo.com/tm-476-conquer
 
 
 iframe {
-  display: block;
-  border: 0;
-  position: absolute; 
-  width: 100%; 
-  height: 100%; 
+display: block;
+border: 0;
+position: absolute; 
+width: 100%; 
+height: 100%; 
 }
 
 */
@@ -28,7 +28,7 @@ h6,
 .h4,
 .h5,
 .h6 {
-    font-family: "Karla", "Lucida Grande", "Helvetica", "Arial"!important;
+  font-family: "Karla", "Lucida Grande", "Helvetica", "Arial"!important;
 }
 body {
   background-color: #ffffff;
@@ -37,7 +37,7 @@ body {
 }
 
 .bg-project, .wrapper {
-    background-color: #fff;
+  background-color: #fff;
 }
 
 .navbar {
@@ -55,7 +55,7 @@ body {
 }
 
 .navbar-inverse .navbar-nav> li.prominent> a {
-	padding-top: 10px;
+  padding-top: 10px;
 }
 
 img {
@@ -87,20 +87,20 @@ img#logo {
 
 a:hover img#logo {
 
-    -webkit-transform: rotateY(180deg); 
-    transform: rotateY(180deg); 
-    -webkit-filter: invert(100%);
-    filter: invert(100%);
+  -webkit-transform: rotateY(180deg); 
+  transform: rotateY(180deg); 
+  -webkit-filter: invert(100%);
+  filter: invert(100%);
 }
 
 
 
- h1 {
+h1 {
   font-weight: 700;
 }
 
 h2 {
-      word-break: break-all;
+  word-break: break-all;
 }
 
 p{
@@ -123,13 +123,13 @@ header {
   /*background-size: 100% 100%;*/
 }
 ul#menu {
-background: #40475A none repeat scroll 0 0;
-padding: 6px;
-position: fixed;
-text-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
-width: 100%;
-z-index: 999;
-    }
+  background: #40475A none repeat scroll 0 0;
+  padding: 6px;
+  position: fixed;
+  text-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
+  width: 100%;
+  z-index: 999;
+}
 .main-menu {
   margin-top: -234px;
 }
@@ -154,9 +154,9 @@ z-index: 999;
 }
 
 .navbar-inverse .navbar-nav>li>a:focus, .navbar-inverse .navbar-nav>li>a:hover {
-    color: #fff;
-    background-color: #5f868f!important;
-    }
+  color: #fff;
+  background-color: #5f868f!important;
+}
 
 .header-content  h1 {
   color: #66fcf1;
@@ -188,24 +188,24 @@ z-index: 999;
 .red-btn { background: #852406; }
 .red-btn:hover { background: #C9302C; }
 .feature-content {
-    padding-bottom: 40px;
+  padding-bottom: 40px;
 }
 
 .feature-content-description {
-    padding: 0 20px 35px;
-    text-align: left;
-    color: #333333;
-    margin-top: 15px;
+  padding: 0 20px 35px;
+  text-align: left;
+  color: #333333;
+  margin-top: 15px;
 }
 .feature-content-link {
-    border-radius: 5px;
-    color: #fff;
-    font-size: 18px;
-    padding: 10px 30px;
-    text-decoration: none;
-    text-transform: capitalize;
-    -webkit-transition: all 0.3s ease;
-            transition: all 0.3s ease;
+  border-radius: 5px;
+  color: #fff;
+  font-size: 18px;
+  padding: 10px 30px;
+  text-decoration: none;
+  text-transform: capitalize;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
 }
 .feature-content-link:hover, .feature-content-link:link, .feature-content-link:visited  {
   color: white;
@@ -219,13 +219,13 @@ div.transbox {
 }
 
 #section0::after {
-    content: '';
-    background: #ffffff;
-    display: block;
-    height: 200px;
-    margin-top: -200px;
-    z-index: -10000;
-    position: relative;
+  content: '';
+  background: #ffffff;
+  display: block;
+  height: 200px;
+  margin-top: -200px;
+  z-index: -10000;
+  position: relative;
 }
 
 
@@ -264,11 +264,11 @@ div#section2, div#section3 {
   border: none;
   border-radius: 50%;
   -webkit-transition: -webkit-transform .8s ease-in-out;
-          transition:         transform .8s ease-in-out;
+  transition:         transform .8s ease-in-out;
 }
 .feature-content:hover .snowflake {
   -webkit-transform: rotate(360deg);
-          transform: rotate(360deg);
+  transform: rotate(360deg);
 }
 /* End of Snowflake rotation */
 
@@ -278,14 +278,14 @@ div#section2, div#section3 {
 }
 
 .skills-set {
-    font-size: 20px;
-    color: #FFF;
-    font-weight: bold;
-    /* padding-bottom: 10px; */
-    padding-left: 38px;
-    background-color: #445a63;
-    border-radius: 8px;
-    margin-bottom: 10px;
+  font-size: 20px;
+  color: #FFF;
+  font-weight: bold;
+  /* padding-bottom: 10px; */
+  padding-left: 38px;
+  background-color: #445a63;
+  border-radius: 8px;
+  margin-bottom: 10px;
 }
 
 .skills-list {
@@ -302,8 +302,8 @@ div#section2, div#section3 {
 /* Work and Education Style */
 
 .title {
-    margin-left: 0;
-    border-bottom: 1px solid #eaa69d;
+  margin-left: 0;
+  border-bottom: 1px solid #eaa69d;
 }
 .we-item {
   margin-top: 15px;
@@ -346,7 +346,7 @@ div#section2, div#section3 {
 /* Start Blog CSS */
 
 #blog-area {
-    margin: 60px 0px;
+  margin: 60px 0px;
 }
 .blog-content {
   background: #F2F2F2;
@@ -355,48 +355,48 @@ div#section2, div#section3 {
   margin: 0 auto;
 }
 .blog-content h2 {
-    color: #666666;
-    text-transform: capitalize;
+  color: #666666;
+  text-transform: capitalize;
 }
 .blog-content p {
-    padding: 27px;
-    text-align: left;
-    color: #5e868f;
+  padding: 27px;
+  text-align: left;
+  color: #5e868f;
 }
 
 .blog-content span a {
-    background: #fff none repeat scroll 0 0;
-    border: 1px solid #ccc;
-    border-radius: 10px;
-    color: #666666;
-    font-size: 18px;
-    padding: 10px 30px;
-    text-decoration: none;
-    text-transform: capitalize;
+  background: #fff none repeat scroll 0 0;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  color: #666666;
+  font-size: 18px;
+  padding: 10px 30px;
+  text-decoration: none;
+  text-transform: capitalize;
 }
 .blog-content span a:hover {
-    background: #E6E6E6 none repeat scroll 0 0;
+  background: #E6E6E6 none repeat scroll 0 0;
 }
 .blog-content > p#blofr {
-    padding: 8px;
+  padding: 8px;
 }
 /* End Blog CSS */
 
 /* Start Services CSS */
 div#service-area-main {
-    float: left;
-    width: 100%;
+  float: left;
+  width: 100%;
   margin-top:-200px;
 }
 .our-service{
   margin:65px 0px 85px;
 }
 /*section#services-area {
-  background-image: url("../img/bg-2.jpg");
-  background-position: center center;
-  background-size: cover;
-  background-attachment: fixed;
-  background-repeat: no-repeat;
+background-image: url("../img/bg-2.jpg");
+background-position: center center;
+background-size: cover;
+background-attachment: fixed;
+background-repeat: no-repeat;
 }*/
 .service  h1 {
   color: #fff;
@@ -404,18 +404,18 @@ div#service-area-main {
   margin-bottom: 20px;
 }
 .service > p {
-    color: #fff;
-    font-size: 20px;
+  color: #fff;
+  font-size: 20px;
 }
 
-  #section0::after {
-    content: '';
-    background: white;
-    display: block;
-    height: 200px;
-    margin-top: -200px;
-    z-index: -10000;
-    position: relative;
+#section0::after {
+  content: '';
+  background: white;
+  display: block;
+  height: 200px;
+  margin-top: -200px;
+  z-index: -10000;
+  position: relative;
 }
 /* End Services CSS */
 
@@ -424,8 +424,8 @@ div#service-area-main {
   margin: 60px 0;
 }
 h2 {
-    color: #31708f;
-    font-size: 20px;
+  color: #31708f;
+  font-size: 20px;
 }
 .testimonial-content {
   background-color: #f2f2f2;
@@ -436,45 +436,45 @@ h2 {
   padding-bottom: 15px;
 }
 .testimonial-content  p {
-    padding: 10px 20px;
-    text-align: left;
-    color: #455A64;
+  padding: 10px 20px;
+  text-align: left;
+  color: #455A64;
 }
 .content-link, .submit-button {
-    background: #5f868f none repeat scroll 0 0;
-    border: 1px solid #cdcdcd;
-    color: #FFF;
-    display: inline-block;
-    font-size: 17px;
-    padding: 10px 30px;
-    text-decoration: none;
-    text-transform: capitalize;
-    margin-top: 15px;
-    border-radius: 8px;
-    -webkit-transition: all 0.3s ease;
-            transition: all 0.3s ease;
+  background: #5f868f none repeat scroll 0 0;
+  border: 1px solid #cdcdcd;
+  color: #FFF;
+  display: inline-block;
+  font-size: 17px;
+  padding: 10px 30px;
+  text-decoration: none;
+  text-transform: capitalize;
+  margin-top: 15px;
+  border-radius: 8px;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
 }
 .content-link:hover,
 .content-link:focus {
-    background: #455A64 none repeat scroll 0 0;
-    color: #FFF;
+  background: #455A64 none repeat scroll 0 0;
+  color: #FFF;
 }
 
 /* End Testimornial CSS */
 
 /* Start Contact CSS */
 /*section#contact-area {
-  background-image: url("../img/bg-3.jpg");
-  background-position: center center;
-  background-size: cover;  
-  background-attachment: fixed; 
+background-image: url("../img/bg-3.jpg");
+background-position: center center;
+background-size: cover;  
+background-attachment: fixed; 
 }*/
 .email {
-    padding-bottom: 10px;
+  padding-bottom: 10px;
 }
 
 #section1, #section5 {
-    background-color: #455A64;
+  background-color: #455A64;
 }
 
 .contact-content > div {
@@ -484,27 +484,27 @@ h2 {
 
 }
 .contact-content h1 {
-    color: #FFF;
-    text-transform: capitalize;
-    margin-bottom: 30px;
+  color: #FFF;
+  text-transform: capitalize;
+  margin-bottom: 30px;
 }
 .contact-content p {
-    background: rgba(242, 242, 242, 0.4) none repeat scroll 0 0;
-    border-radius: 5px;
-    color: #000;
-    font-size: 16px;
-    margin-bottom: 20px;
-    padding: 20px 15px;
+  background: rgba(242, 242, 242, 0.4) none repeat scroll 0 0;
+  border-radius: 5px;
+  color: #000;
+  font-size: 16px;
+  margin-bottom: 20px;
+  padding: 20px 15px;
 }
 
 .contact-content .mobile {
-        border: none;
-    }
+  border: none;
+}
 
 .contact-form-left { padding-left: 0; }
 .contact-form-right { padding-right: 0; }
 input {
-    margin-bottom: 15px;    
+  margin-bottom: 15px;    
 }
 .form-control {
   border: none;
@@ -520,14 +520,14 @@ input {
   padding: 10px 30px;
   font-size: 18px;
   -webkit-transition: all 0.3s ease;
-          transition: all 0.3s ease;
+  transition: all 0.3s ease;
 }
 
 .form-group .submit-button:hover {
-    color: #333;
-    background-color: #e6e6e6;
-    border-color: #adadad;
-  }
+  color: #333;
+  background-color: #e6e6e6;
+  border-color: #adadad;
+}
 /* End Contact CSS */
 
 /* Social Networks CSS */
@@ -571,22 +571,22 @@ input {
 
 /* Start Footer CSS */
 .footer-content  h1 {
-    color: #666;
-    font-size: 32px;
-    font-style: italic;
-    margin-bottom: 25px;
-    margin-top: 35px;
+  color: #666;
+  font-size: 32px;
+  font-style: italic;
+  margin-bottom: 25px;
+  margin-top: 35px;
 }
 .footer-content  p {
-    color: #999;
-    font-style: italic;
-    margin-bottom: 30px;
+  color: #999;
+  font-style: italic;
+  margin-bottom: 30px;
 }
 .copy {
-    color: #666;
-    font-size: 12px;
-    margin-bottom: 30px;
-    margin-top: 10px;
+  color: #666;
+  font-size: 12px;
+  margin-bottom: 30px;
+  margin-top: 10px;
 }
 
 
@@ -609,10 +609,10 @@ input {
 
 /* Slick Nav CSS */
 .slicknav_menu {
-    display:none;
+  display:none;
 }
 .slicknav_nav a {
-    text-transform: capitalize;
+  text-transform: capitalize;
 }
 .slicknav_menu {
   background: #40475a none repeat scroll 0 0;
@@ -620,22 +620,22 @@ input {
 /* Scrool To top */
 /* Image style */
 #scrollUp {
-    background-image: url("../img/top.png");
-    bottom: 20px;
-    right: 20px;
-    width: 38px;    /* Width of image */
-    height: 38px;   /* Height of image */
+  background-image: url("../img/top.png");
+  bottom: 20px;
+  right: 20px;
+  width: 38px;    /* Width of image */
+  height: 38px;   /* Height of image */
 }
 /* End Scroll To top */
 
 .about-section {
-    height: 100%;
-    padding-top: 70px;
+  height: 100%;
+  padding-top: 70px;
 }
 
 .services-section {
-    height: 100%;
-   /* padding-top: 150px;*/
+  height: 100%;
+  /* padding-top: 150px;*/
 }
 .tm-box {
   background-color: #F2F2F2;
@@ -652,9 +652,9 @@ input {
   margin-bottom: 0;
 }
 .contact-section {
-    height: 100%;
-    padding-top: 80px;
-    padding-bottom: 40px;
+  height: 100%;
+  padding-top: 80px;
+  padding-bottom: 40px;
 }
 .form-control {
   color: #455A64;
@@ -668,16 +668,16 @@ input {
 
 /*https://css-tricks.com/snippets/css/style-placeholder-text/*/
 .form-control::-webkit-input-placeholder {
-   color: black;
+  color: black;
 }
 .form-control:-moz-placeholder { /* Firefox 18- */
-   color: black;  
+  color: black;  
 }
 .form-control::-moz-placeholder {  /* Firefox 19+ */
-   color: black;  
+  color: black;  
 }
 .form-control:-ms-input-placeholder {  
-   color: black;  
+  color: black;  
 }
 
 /*************navigation******************/
@@ -688,39 +688,39 @@ input {
 }
 
 .navbar-nav>li {
-    display: inline-block;
-    padding: 10px;
-    float: none;
+  display: inline-block;
+  padding: 10px;
+  float: none;
 }
 .navbar-inverse .navbar-nav>li>a {
-    background: #455A64 none repeat scroll 0 0;
-    color: #FFF;
-    font-size: 18px;
-    padding: 15px 23px;
-    border-radius: 8px;
-    text-decoration: none;
-    text-transform: capitalize;
-    -webkit-transition: all 0.7s ease;
-            transition: all 0.7s ease;
+  background: #455A64 none repeat scroll 0 0;
+  color: #FFF;
+  font-size: 18px;
+  padding: 15px 23px;
+  border-radius: 8px;
+  text-decoration: none;
+  text-transform: capitalize;
+  -webkit-transition: all 0.7s ease;
+  transition: all 0.7s ease;
 }
 
 .navbar-inverse .navbar-nav > li > a.current,
 .navbar-inverse .navbar-nav > li > a:hover {
-        background-color: #5f868f;
-        color: #FFF;
+  background-color: #5f868f;
+  color: #FFF;
 }
 .navbar .navbar-nav {
-    display: inline-block;
-    float: none;
+  display: inline-block;
+  float: none;
 }
 
 .navbar .navbar-collapse {
-    text-align: center;
+  text-align: center;
 }
 
 #section1 h1 > span,
 #section1 h4 > span {
-    background: rgba(0, 0, 0, 0.7);
+  background: rgba(0, 0, 0, 0.7);
 }
 
 
@@ -728,20 +728,20 @@ input {
 ----------------------*/
 
 .project-desc {
-font-size: 19px;
-text-align: justify;
-line-height: 1.1em;
-padding-top: 10px;
+  font-size: 19px;
+  text-align: justify;
+  line-height: 1.1em;
+  padding-top: 10px;
 }
 
 .project-det {
-font-size: 17px;
-text-align: justify;
+  font-size: 17px;
+  text-align: justify;
 }
 
 .tech-feat {
-font-size: 17px;
-text-align: justify;
+  font-size: 17px;
+  text-align: justify;
 }
 
 .project-head {
@@ -763,7 +763,7 @@ text-align: justify;
 
 
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
- 
+
   .blog-content > p#blofr {
     padding: 5px;
   }
@@ -772,8 +772,8 @@ text-align: justify;
   }
 
   .navbar-inverse .navbar-nav > li > a {
-  font-size: 15px;
-  padding: 8px;
+    font-size: 15px;
+    padding: 8px;
   }
 
 }
@@ -814,7 +814,7 @@ text-align: justify;
 }
 
 @media only screen and (max-width: 767px) {
-  
+
   header {
     height: 75vh;
     padding: 0 15px;
@@ -823,14 +823,20 @@ text-align: justify;
     display: -webkit-box;
     display: flex;
     -webkit-align-items: center;
-        -ms-flex-align: center;
-            -webkit-box-align: center;
-            align-items: center;
+    -ms-flex-align: center;
+    -webkit-box-align: center;
+    align-items: center;
     -webkit-box-pack: center;
     -webkit-justify-content: center;
-        -ms-flex-pack: center;
-            justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
   } 
+  #section1 {
+    background-color: #fff;
+  }
+  .service h1 {
+    color: #455A64;
+  }
 
   ul#menu { display:none; }
 
@@ -842,7 +848,7 @@ text-align: justify;
     background:none;
   }
   .header-content h1 {
-   font-size: 55px;
+    font-size: 55px;
   }
   .feature-content {
     max-width: 360px;
@@ -851,7 +857,7 @@ text-align: justify;
   }
   .feature-content-title,
   .feature-content-description {
-   text-align: center;
+    text-align: center;
   }
   .blog-content { margin-bottom: 30px; }
   .blog-content p { text-align: center; }
@@ -906,7 +912,7 @@ text-align: justify;
     background-color: #373c4a;
     max-height: 0;
     -webkit-transition: max-height 0.8s;
-            transition: max-height 0.8s;
+    transition: max-height 0.8s;
     overflow: hidden;
   }
   /*http://css3.bradshawenterprises.com/animating_height/*/
@@ -946,7 +952,7 @@ text-align: justify;
   .col-xxs-12 {
     width: 100%;
   }
-   .prominent span {
+  .prominent span {
     border-bottom: none;
   }
 }
@@ -955,7 +961,7 @@ text-align: justify;
 
   header { height: 50vh; }
 
-   .prominent span {
+  .prominent span {
     border-bottom: none;
   }
 }
@@ -988,26 +994,26 @@ text-align: justify;
 .skills {
   list-style: none;
 }
-   
+
 @media only screen and (min-width: 768px) {
-    #section1 {
-        background-color: white;
-    }
-    
-    .service {
-        font-size: 20px;
-    }
-    .service, .service h1 {
-        color: #435761;
-    }
-    
-    
+  #section1 {
+    background-color: white;
+  }
+
+  .service {
+    font-size: 20px;
+  }
+  .service, .service h1 {
+    color: #435761;
+  }
+
+
 }
 
 @media only screen and (max-width: 420px) {
-    .snowflake {
-        max-width: 30%;
-    }
+  .snowflake {
+    max-width: 30%;
+  }
 }
 
 
