@@ -32,12 +32,12 @@ h6,
 }
 body {
   background-color: #ffffff;
-  color: #FFF;
+  color: #5e868f;
   overflow-x: hidden;
 }
 
 .bg-project, .wrapper {
-    background-color: #5f868f;
+    background-color: #fff;
 }
 
 .navbar {
@@ -97,6 +97,10 @@ a:hover img#logo {
 
  h1 {
   font-weight: 700;
+}
+
+h2 {
+      word-break: break-all;
 }
 
 p{
@@ -174,9 +178,9 @@ z-index: 999;
 /* End Header CSS */
 
 /* Start Feature CSS */
-.green-text { color: white; }
-.blue-text { color: white; }
-.gray-text { color: white; }
+.green-text { color: #435963; }
+.blue-text { color: #435963; }
+.gray-text { color: #435963; }
 .green-btn { background: #178A27; }
 .green-btn:hover { background: #449D44; }
 .blue-btn { background: #1686C1; }
@@ -251,6 +255,7 @@ h2.project-title {
 
 div#section2, div#section3 {
   border-bottom: 1px solid #ccc;
+  background-color: #f2f3f2;
 }
 /* End of Section Title Style */
 
@@ -278,7 +283,7 @@ div#section2, div#section3 {
     font-weight: bold;
     /* padding-bottom: 10px; */
     padding-left: 38px;
-    background-color: #eaa69d;
+    background-color: #445a63;
     border-radius: 8px;
     margin-bottom: 10px;
 }
@@ -356,7 +361,7 @@ div#section2, div#section3 {
 .blog-content p {
     padding: 27px;
     text-align: left;
-    color: #FFF;
+    color: #5e868f;
 }
 
 .blog-content span a {
@@ -419,7 +424,7 @@ div#service-area-main {
   margin: 60px 0;
 }
 h2 {
-    color: white;
+    color: #31708f;
     font-size: 20px;
 }
 .testimonial-content {
