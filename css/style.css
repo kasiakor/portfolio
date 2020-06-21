@@ -59,12 +59,9 @@ body {
 }
 
 img {
-  max-width: 60%;
+  max-width: 100%;
   height: auto;
-  border: none;
-  border: solid 5px #455A64;
   margin-top: 7px;
-  border-radius: 8%;
 }
 
 .img-project {
@@ -117,7 +114,7 @@ header {
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;*/
-  padding: 235px 0;
+  padding: 100px 0;
   /*margin-bottom: 60px;*/
   /*background-attachment: fixed;*/
   /*background-size: 100% 100%;*/
@@ -246,7 +243,7 @@ h1.section-title:after {
   width: 60px;
   height: 1px;
   margin: 15px auto 30px;
-  border-bottom: 2px solid #eaa69d;
+  border-bottom: 1px solid #ca312d;
 }
 
 h2.project-title {
@@ -262,9 +259,9 @@ div#section2, div#section3 {
 /* Snowflake rotation */
 .snowflake {
   border: none;
-  border-radius: 50%;
   -webkit-transition: -webkit-transform .8s ease-in-out;
-  transition:         transform .8s ease-in-out;
+  transition: transform .8s ease-in-out;
+  max-height: 40px;
 }
 .feature-content:hover .snowflake {
   -webkit-transform: rotate(360deg);
@@ -437,7 +434,7 @@ h2 {
 }
 .testimonial-content  p {
   padding: 10px 20px;
-  text-align: left;
+  text-align: center;
   color: #455A64;
 }
 .content-link, .submit-button {
@@ -557,13 +554,13 @@ input {
   background-image: url("../img/linkedin-icon.png");
 }
 
-#section5 {
+/*#section5 {
   background-image:  url("../img/icon-email_invert.png"), url("../img/icon-email.png"), url("../img/icon-email.png"), url("../img/icon-email_invert.png"), url("../img/icon-email.png");
   background-repeat: no-repeat;
   background-position: 15% 75%, 85% 25%, 5% 15%, 40% 20%, 90% 80%;
   background-size: 110px, 160px, 80px, 50px, 40px;
 
-}
+}*/
 
 
 
@@ -685,6 +682,7 @@ input {
 .navbar {
   background-color: #FFF!important;
   border-color: #FFF!important;
+  margin-top: 30px;
 }
 
 .navbar-nav>li {
@@ -773,7 +771,7 @@ input {
 
   .navbar-inverse .navbar-nav > li > a {
     font-size: 15px;
-    padding: 8px;
+    margin: 0 15px;
   }
 
 }
