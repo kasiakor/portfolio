@@ -45,7 +45,7 @@ body {
 }
 
 .intro-section {
-  margin-top: 50px;
+  margin-top: 70px;
 }
 
 .prominent span {
@@ -114,7 +114,7 @@ header {
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;*/
-  padding: 100px 0;
+ /* padding: 100px 0;*/
   /*margin-bottom: 60px;*/
   /*background-attachment: fixed;*/
   /*background-size: 100% 100%;*/
@@ -152,7 +152,7 @@ ul#menu {
 
 .navbar-inverse .navbar-nav>li>a:focus, .navbar-inverse .navbar-nav>li>a:hover {
   color: #fff;
-  background-color: #5f868f!important;
+  background-color: #7f8790!important;
 }
 
 .header-content  h1 {
@@ -247,12 +247,12 @@ h1.section-title:after {
 }
 
 h2.project-title {
-  color: #455a64;
+  color: #bfbac2;
 }
 
 div#section2, div#section3 {
   border-bottom: 1px solid #ccc;
-  background-color: #f2f3f2;
+  background-color: #fff;
 }
 /* End of Section Title Style */
 
@@ -323,9 +323,11 @@ div#section2, div#section3 {
   width:160px;
 }
 
+/*
 .we-img img {
   border: 1px ridge #c1c1c1;
 }
+*/
 
 .we-text {
   width: calc(100% - 160px);
@@ -435,15 +437,15 @@ h2 {
 .testimonial-content  p {
   padding: 10px 20px;
   text-align: center;
-  color: #455A64;
+  color: #bfbac2;
 }
 .content-link, .submit-button {
-  background: #5f868f none repeat scroll 0 0;
+  background: #ad8484 none repeat scroll 0 0;
   border: 1px solid #cdcdcd;
-  color: #FFF;
+  color: #fff;
   display: inline-block;
   font-size: 17px;
-  padding: 10px 30px;
+  padding: 5px 23px;
   text-decoration: none;
   text-transform: capitalize;
   margin-top: 15px;
@@ -453,7 +455,7 @@ h2 {
 }
 .content-link:hover,
 .content-link:focus {
-  background: #455A64 none repeat scroll 0 0;
+  background: #bfbac2 none repeat scroll 0 0;
   color: #FFF;
 }
 
@@ -471,7 +473,7 @@ background-attachment: fixed;
 }
 
 #section1, #section5 {
-  background-color: #455A64;
+  background-color: #bfbac2;
 }
 
 .contact-content > div {
@@ -505,16 +507,16 @@ input {
 }
 .form-control {
   border: none;
-  color:#455A64;
+  color:#bfbac2;
 }
 #comment.form-control {
 
 }
 .form-group .submit-button {
-  background: #5f868f none repeat scroll 0 0;
-  color: #FFF;
+  background: #ad8484 none repeat scroll 0 0;
+  color: #fff;
   margin-top: 20px;
-  padding: 10px 30px;
+  padding: 5px 23px;
   font-size: 18px;
   -webkit-transition: all 0.3s ease;
   transition: all 0.3s ease;
@@ -654,7 +656,7 @@ input {
   padding-bottom: 40px;
 }
 .form-control {
-  color: #455A64;
+  color: #bfbac2;
   font-size: 17px;
 }
 .contact-section .container {
@@ -691,10 +693,10 @@ input {
   float: none;
 }
 .navbar-inverse .navbar-nav>li>a {
-  background: #455A64 none repeat scroll 0 0;
+  background: #ad8484 none repeat scroll 0 0;
   color: #FFF;
   font-size: 18px;
-  padding: 15px 23px;
+  padding: 5px 23px;
   border-radius: 8px;
   text-decoration: none;
   text-transform: capitalize;
@@ -798,8 +800,7 @@ input {
   }
 
   .navbar-inverse .navbar-nav > li > a {
-    font-size: 12px;
-    padding: 5px;
+    font-size: 17px;
   }
 }
 
@@ -833,7 +834,7 @@ input {
     background-color: #fff;
   }
   .service h1 {
-    color: #455A64;
+    color: #bfbac2;
   }
 
   ul#menu { display:none; }
@@ -1002,7 +1003,7 @@ input {
     font-size: 20px;
   }
   .service, .service h1 {
-    color: #435761;
+    color: #444444;
   }
 
 
