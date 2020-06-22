@@ -345,12 +345,12 @@ div#section2, div#section3 {
 /* Start Blog CSS */
 
 #blog-area {
-  margin: 60px 0px;
+  padding-top: 70px;
 }
 .blog-content {
   background: #F2F2F2;
   padding-bottom:25px;
-  max-width: 555px;
+ /* max-width: 555px;*/
   margin: 0 auto;
 }
 .blog-content h2 {
@@ -420,7 +420,7 @@ background-repeat: no-repeat;
 
 /* Start Testimornial CSS */
 #testimornial-area{
-  margin: 60px 0;
+ padding-top: 70px;
 }
 h2 {
   color: #31708f;
@@ -706,7 +706,7 @@ input {
 
 .navbar-inverse .navbar-nav > li > a.current,
 .navbar-inverse .navbar-nav > li > a:hover {
-  background-color: #5f868f;
+  background-color: #ad8484;
   color: #FFF;
 }
 .navbar .navbar-nav {
