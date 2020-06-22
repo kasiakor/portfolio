@@ -32,7 +32,7 @@ h6,
 }
 body {
   background-color: #ffffff;
-  color: #5e868f;
+  color: #444444;
   overflow-x: hidden;
 }
 
@@ -236,7 +236,7 @@ h1.section-title {
   padding-bottom: 10px;
 }
 
-h1.section-title:after {
+/*h1.section-title:after {
   content: '';
   display: block;
   background-color: #FFF;
@@ -244,14 +244,14 @@ h1.section-title:after {
   height: 1px;
   margin: 15px auto 30px;
   border-bottom: 1px solid #ca312d;
-}
+}*/
 
 h2.project-title {
-  color: #bfbac2;
+  color: #444444;
 }
 
 div#section2, div#section3 {
-  border-bottom: 1px solid #ccc;
+  /*border-bottom: 1px solid #ccc;*/
   background-color: #fff;
 }
 /* End of Section Title Style */
@@ -360,7 +360,7 @@ div#section2, div#section3 {
 .blog-content p {
   padding: 27px;
   text-align: left;
-  color: #5e868f;
+  color: #444444;
 }
 
 .blog-content span a {
@@ -437,7 +437,7 @@ h2 {
 .testimonial-content  p {
   padding: 10px 20px;
   text-align: center;
-  color: #bfbac2;
+  color: #444444;
 }
 .content-link, .submit-button {
   background: #ad8484 none repeat scroll 0 0;
@@ -656,7 +656,7 @@ input {
   padding-bottom: 40px;
 }
 .form-control {
-  color: #bfbac2;
+  color: #444444;
   font-size: 17px;
 }
 .contact-section .container {
@@ -834,7 +834,7 @@ input {
     background-color: #fff;
   }
   .service h1 {
-    color: #bfbac2;
+    color: #444444;
   }
 
   ul#menu { display:none; }
@@ -868,10 +868,10 @@ input {
     background: none;
     border: none; 
   }
-  .navbar-inverse .navbar-toggle { background-color: #333; }
+  .navbar-inverse .navbar-toggle { background-color: #ad8484; }
   .navbar-inverse .navbar-collapse, 
   .navbar-inverse .navbar-form {
-    background-color: #49505F;
+    background-color: #ad8484;
   }
   .navbar .navbar-nav {
     width: 100%;
