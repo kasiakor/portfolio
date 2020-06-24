@@ -74,6 +74,11 @@ img.parallax-slider {
 
 }
 
+img#bg-stars {
+    margin-top: 40px;
+}
+
+/*
 img#logo {
   border: none;
   margin-top: 0px;
@@ -90,6 +95,7 @@ a:hover img#logo {
   filter: invert(100%);
 }
 
+*/
 
 
 h1 {
@@ -152,7 +158,7 @@ ul#menu {
 
 .navbar-inverse .navbar-nav>li>a:focus, .navbar-inverse .navbar-nav>li>a:hover {
   color: #fff;
-  background-color: #7f8790!important;
+  background-color: #f88c11!important;
 }
 
 .header-content  h1 {
@@ -234,7 +240,11 @@ div.transbox {
 h1.section-title {
   text-align: center;
   font-size: 26px;
-  padding-bottom: 10px;
+  padding: 5px 23px;
+  background-color: #ad8484;;
+  margin: 50px 0;
+  color: #fff;
+  border-radius: 8px;
 }
 
 /*h1.section-title:after {
@@ -345,15 +355,13 @@ div#section2, div#section3 {
 
 /* Start Blog CSS */
 
-#blog-area {
-  padding-top: 70px;
-}
-.blog-content {
+
+/*.blog-content {
   background: #F2F2F2;
   padding-bottom:25px;
- /* max-width: 555px;*/
+  max-width: 555px;
   margin: 0 auto;
-}
+}*/
 .blog-content h2 {
   color: #666666;
   text-transform: capitalize;
@@ -388,9 +396,9 @@ div#service-area-main {
   width: 100%;
   margin-top:-200px;
 }
-.our-service{
+/*.our-service{
   margin:65px 0px 85px;
-}
+}*/
 /*section#services-area {
 background-image: url("../img/bg-2.jpg");
 background-position: center center;
@@ -398,15 +406,11 @@ background-size: cover;
 background-attachment: fixed;
 background-repeat: no-repeat;
 }*/
-.service  h1 {
-  color: #fff;
-  text-transform: capitalize;
-  margin-bottom: 20px;
-}
-.service > p {
+
+/*.service > p {
   color: #fff;
   font-size: 20px;
-}
+}*/
 
 #section0::after {
   content: '';
@@ -420,9 +424,9 @@ background-repeat: no-repeat;
 /* End Services CSS */
 
 /* Start Testimornial CSS */
-#testimornial-area{
+/*#testimornial-area{
  padding-top: 70px;
-}
+}*/
 h2 {
   color: #31708f;
   font-size: 20px;
@@ -456,7 +460,7 @@ h2 {
 }
 .content-link:hover,
 .content-link:focus {
-  background: #bfbac2 none repeat scroll 0 0;
+  background-color: #f88c11!important;
   color: #FFF;
 }
 
@@ -469,12 +473,12 @@ background-position: center center;
 background-size: cover;  
 background-attachment: fixed; 
 }*/
-.email {
+/*.email {
   padding-bottom: 10px;
-}
+}*/
 
-#section1, #section5 {
-  background-color: #bfbac2;
+#section5 {
+  background-color: #ad8484;
 }
 
 .contact-content > div {
@@ -627,11 +631,6 @@ input {
   height: 38px;   /* Height of image */
 }
 /* End Scroll To top */
-
-.about-section {
-  height: 100%;
-  padding-top: 70px;
-}
 
 .services-section {
   height: 100%;
@@ -791,18 +790,18 @@ input {
 
   .blog-content span { margin-left: 0; }
   .service > p { font-size: 18px; }
-  .contact-content p {
+ /* .contact-content p {
     font-size: 18px;
     padding: 15px 0;
   }
-
+*/
   .navbar-nav > li {
     padding: 6px;
   }
 
-  .navbar-inverse .navbar-nav > li > a {
+/*  .navbar-inverse .navbar-nav > li > a {
     font-size: 17px;
-  }
+  }*/
 }
 
 @media only screen and (max-width: 1024px) {
@@ -833,9 +832,6 @@ input {
   } 
   #section1 {
     background-color: #fff;
-  }
-  .service h1 {
-    color: #444444;
   }
 
   ul#menu { display:none; }
@@ -869,7 +865,10 @@ input {
     background: none;
     border: none; 
   }
-  .navbar-inverse .navbar-toggle { background-color: #ad8484; }
+  .navbar-inverse .navbar-toggle {
+      background-color: #ad8484;
+      border-color: #f2f2f2!important;
+    }
   .navbar-inverse .navbar-collapse, 
   .navbar-inverse .navbar-form {
     background-color: #ad8484;
@@ -1002,13 +1001,9 @@ input {
     background-color: white;
   }
 
-  .service {
+/*  .service {
     font-size: 20px;
-  }
-  .service, .service h1 {
-    color: #444444;
-  }
-
+  }*/
 
 }
 
