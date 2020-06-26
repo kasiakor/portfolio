@@ -36,6 +36,11 @@ body {
   overflow-x: hidden;
 }
 
+section {
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+
 .bg-project, .wrapper {
   background-color: #fff;
 }
@@ -242,7 +247,7 @@ h1.section-title {
   font-size: 26px;
   padding: 5px 23px;
   background-color: #ad8484;;
-  margin: 50px 0;
+  margin: 50px 0 80px;
   color: #fff;
   border-radius: 8px;
 }
