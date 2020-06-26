@@ -625,6 +625,7 @@ input {
 /* Image style */
 #scrollUp {
   background-image: url("../img/top.png");
+  background-repeat: no-repeat;
   bottom: 20px;
   right: 20px;
   width: 38px;    /* Width of image */
@@ -1023,11 +1024,23 @@ width: 100%;
 background: #ad8484;
 }
 
+footer p.footer-text {
+    font-size: 12px;
+}
+
+footer a, a:hover, a:focus, a:active {
+
+  text-decoration: none;
+  color: inherit;
+ 
+}
+
 .outer {
     padding: 12px 0;
 }
 footer .wrap {
     margin: 0 auto;
+    padding: 30px 0;
     white-space: nowrap;
     font-size: 0;
 }
@@ -1037,7 +1050,6 @@ footer .wrap .sub {
     color: white;
     width: 20%;
     padding: 27px 10px;
-    border-right: 1px solid #e9e4db;
     font-size: 14px;
     text-align: center;
     box-sizing: border-box;
@@ -1049,7 +1061,8 @@ footer .wrap .sub:last-child {
 }
 
 #logo {
-    width: 100px;
+    width: 49%;
+    margin: 0;
 }
 
 #github-icon {
